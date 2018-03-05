@@ -1,21 +1,1191 @@
-<!doctype html>
-<html lang="zh-CN">
+<!DOCTYPE html>
+<html lang="cn">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>中鹏培训</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="imagetoolbar" content="no">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>成人教育学院</title>
+    <meta name="keywords" content="">
+    <meta name="description" content=""/>
+    <meta name="title" content=""/>
+    <link type="image/x-icon" rel="icon" href="http://kc.gdzp.org/favicon.ico"/>
+    <link href="../common/css/sjfx.css?t=0002" type="text/css" rel="stylesheet">
+    <link href="./statics/css/gongCheng.css?t=007" type="text/css" rel="stylesheet">
+    <link href="./statics/css/swiper-3.4.2.min.css" type="text/css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+        <link href="http://www.gdzp.org/statics/css/kc/sniefixed.css" rel="stylesheet" type="text/css">
+        <script src="http://www.gdzp.org/statics/js/kc/sn/iehtml5.js"></script>
+    <![endif]-->
 </head>
+
 <body>
-<div class="jumbotron">
-    <h1 class="display-4">中鹏培训</h1>
-    <p class="lead">网站正在建设中......</p>
-    <hr class="my-4">
-    <p class="lead">
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-    </p>
+<!-- 遮罩-->
+<section id="layer" class="layer" style="display: none;">
+    <section class="modal modal1" id="loadform" style="display: none;">
+        <img class="modalin-bg" src="./statics/images/own/layer/load.png?t=0001" alt=""/>
+        <form action="" id="loadForm" class="modal-form1">
+            <input type="hidden" name="info[url]" value="" class="url">
+            <input type="hidden" name="json" value="1">
+            <input type="hidden" name="dosubmit" value=" 提交 ">
+            <input type="text" name="info[name]" value="" class="modal1-form-ipt modal1-ipt1">
+            <input type="text" name="info[mobile]"  value="" class="modal1-form-ipt modal1-ipt2">
+            <a href="javascript:" class="modal-pos-link" id="modal1-pos-link"></a>
+            <a href="javascript:void(0)" class="modal-close-pos"></a>
+        </form>
+    </section>
+    <section class="modal" id="apply-return" style="display: none;">
+        <img class="pos-close" src="./statics/images/own/layer/10.png?t=0001" alt=""/>
+        <article class="modal-in">
+            <h2 id="respond-h2">提交成功！</h2>
+            <p class="desc" id="respond-p">查询结果将会1~3日内通知您！</p>
+        </article>
+    </section>
+
+</section>
+<!--遮罩结束-->
+<header>
+    <section class="headerTop">
+        <div class="mid1080">
+            <div class="Toplogin"><a href="#" class="reg">注册</a>|<a href="#" class="openlogin">登录</a>
+            </div>
+            您好，欢迎来到中鹏培训课程服务中心
+        </div>
+    </section>
+    <section class="midTop mid1080">
+        <hgroup>
+            <h1><a href="http://kc.gdzp.org">上市公司<span>技术改变命运,学习成就未来</span></a>
+            </h1>
+            <img src="./statics/images/own/logo.png?t=001">
+        </hgroup>
+        <div class="Topcontact">
+        <span>课程总站：<a href="http://kc.gdzp.org" target="_blank" title="官方网站">kc.gdzp.org</a>
+        </span>
+            <b>400-930-6618</b>
+            <div class="contactTools">
+                <a class="txwb" href="http://e.t.qq.com/gdzppx" title="腾讯微博" target="_blank">腾讯微博</a>
+                <a class="xlwb" href="#" title="新浪微博" target="_blank">新浪微博</a>
+                <a class="weChat wxTool" title="官方微信">官方微信</a>
+                <a class="zxQQ"
+                   href="http://b.qq.com/webc.htm?new=0&sid=4006026618&eid=218808P8z8p8y8z808R8P&o=&q=7&ref="
+                   title="咨询QQ" target="_blank">咨询QQ</a>
+                <div class="wechat" style="display:none;">
+                    <img src="http://www.gdzp.org/statics/images/kc/wechat.png"/>
+                    <p>关注中鹏官方微信<br/>了解最新动态</p>
+                    <b></b>
+                </div>
+            </div>
+        </div>
+    </section>
+</header>
+<!-- 头部结束 -->
+
+<!-- 主菜单 -->
+<nav id="nav">
+    <ul class="mid1080">
+        <li class="on"><a href="#" title="课程首页">课程首页</a>
+        </li>
+        <li>
+            <a href="#employment" title="行业前景">行业前景</a>
+        </li>
+        <li>
+            <a  href="#set-course" title="课程设置">课程设置</a>
+        </li>
+        <li>
+            <a  href="#price" title="学习费用">学习费用</a>
+        </li>
+        <li>
+            <a href="#load" title="资料下载">资料下载</a>
+        </li>
+        <li>
+            <a href="#environment" title="校区环境">校区环境</a>
+        </li>
+        <li><a  href="#guarantee" title="中鹏优势">中鹏优势</a>
+        </li>
+    </ul>
+</nav>
+<!-- 主菜单结束 -->
+<!-- banner广告 -->
+<div class="swiper-container ui-banner ui-banner1" id="ui-banner1">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide ui-banner1-slide1">
+            <a target="_blank" href="javascript:void(0)"
+               onclick="return openChat(this) " lim_company="796416">
+                <img class="pos-abs-img" src="./statics/images/own/banner1.jpg?t=001" alt=""/>
+            </a>
+        </div>
+        <div class="swiper-slide ui-banner1-slide2">
+            <a target="_blank" href="javascript:void(0)"
+               onclick="return openChat(this) " lim_company="796416">
+                <img class="pos-abs-img" src="./statics/images/own/banner2.jpg?t=001" alt=""/>
+            </a>
+        </div>
+        <div class="swiper-slide ui-banner1-slide3">
+            <a target="_blank" href="javascript:void(0)"
+               onclick="return openChat(this) " lim_company="796416">
+                <img class="pos-abs-img" src="./statics/images/own/banner3.jpg?t=001" alt=""/>
+            </a>
+        </div>
+    </div>
+    <div class="swiper-pagination ui-banner1-pagination"></div>
 </div>
-</body>
-</html>
+<!-- banner广告结束 -->
+<section class="gongCheng gongCheng-1">
+    <section class="mid1080">
+        <figure id="backTop">
+            <img src="./statics/images/backTop.png"/>
+        </figure>
+        <div class="gongChengIn1 gongChengIn">
+            <div class="header">
+                <h2>UI是<em>做什么</em>的？</h2>
+            </div>
+            <ul class="list-3 clearfix gongChengIn1-list">
+                <li class="item1">
+                    <img src="./statics/images/own/01.png?t=001" alt=""/>
+                    <h3>我是美工</h3>
+                    <p class="sub-tit">我会PS+CDR</p>
+                    <p class="salary">月薪<em>3-4K</em></p>
+                </li>
+                <li class="item2">
+                    <img src="./statics/images/own/02.png?t=001" alt=""/>
+                    <h3>我是平面设计师</h3>
+                    <p class="sub-tit">我会PS+VI设计+产品包装</p>
+                    <p class="salary">月薪<em>6-8K</em></p>
+                </li>
+                <li class="item3">
+                    <img src="./statics/images/own/03.png?t=001" alt=""/>
+                    <h3>我是UI设计师</h3>
+                    <p class="sub-tit">我会各种设计软件+交互设计<br/>+视觉设计+界面设计+风格策划</p>
+                    <p class="salary">月薪<em>15K</em></p>
+                </li>
+            </ul>
+            <div class="gongChengIn1-what">
+                <p class="desc"><em>UI设计师</em>是掌握了多项技能并具备了较高审美能力
+                    <span>的高级人才互联网+的时代，没他不行</span></p>
+                <a target="_blank" href="javascript:void(0)"
+                   onclick="return openChat(this) " lim_company="796416" class="link-bg">点击咨询学ui的条件</a>
+            </div>
+
+        </div>
+    </section>
+    <section class="employment" id="employment">
+        <div class="gongChengIn2 gongChengIn mid1080">
+            <div class="header">
+                <h2>UI人才到底有多<em>抢手</em></h2>
+                <p class="sub-tit">各大招聘网火热招聘，日均招聘信息38807条</p>
+            </div>
+            <ul class="clearfix employment-comp">
+                <li>
+                    <div class="top">
+                        <img src="./statics/images/own/04.jpg?t=001" alt=""/>
+                    </div>
+                    <p class="num"><em>18558</em>个<br/>职位</p>
+                </li>
+                <li>
+                    <div class="top">
+                        <img src="./statics/images/own/05.png?t=001" alt=""/>
+                    </div>
+                    <p class="num"><em>11894</em>个<br/>职位</p>
+                </li>
+                <li>
+                    <div class="top">
+                        <img src="./statics/images/own/06.jpg?t=001" alt=""/>
+                    </div>
+                    <p class="num"><em>8530</em>个<br/>职位</p>
+                </li>
+                <li>
+                    <div class="top">
+                        <img src="./statics/images/own/07.jpg?t=001" alt=""/>
+                    </div>
+                    <p class="num"><em>825</em>个<br/>职位</p>
+                </li>
+            </ul>
+            <p class="desc">据国家信息产业部颁布的调查资料显示，目前国内每年新增符合技术标准的UI设计师<span>仅8000人</span>，而市场每年至少产生<span>15万的人才缺口</span>，连谷歌这样的公司都面临着ui的岗位空缺，人才的紧缺导致ui设计师的工资也水涨船高。
+            </p>
+        </div>
+    </section>
+    <section class="path">
+        <div class="mid1080">
+            <div class="gongChengIn3 gongChengIn">
+                <div class="header">
+                    <h2>UI设计师<em>晋升路径</em></h2>
+                </div>
+                <div class="middle">
+                    <img class="" src="./statics/images/own/08.jpg?t=001" alt=""/>
+                </div>
+                <div class="gongChengIn3-footer clearfix">
+                    <div class="left">
+                        <h3>2016年UI设计师<br/>从业行业占比图</h3>
+                        <a target="_blank" href="javascript:void(0)"
+                           onclick="return openChat(this) " lim_company="796416" class="link-bg">点击咨询ui发展前景</a>
+                    </div>
+                    <div class="right">
+                        <img src="./statics/images/own/09.png?t=001" alt=""/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="guarantee" id="guarantee">
+        <div class="gongChengIn4 gongChengIn mid1080">
+            <div class="header">
+                <h2>学UI，选中鹏不怕被坑</h2>
+            </div>
+            <ul class="clearfix gongChengIn4-list">
+                <li class="item1">
+                    <div class="top">
+                        <h3>正规</h3>
+                    </div>
+                    <p class="num">
+                        中鹏集团<br/>
+                        股票代码（870813）<br/>
+                        14年专注教育<br/>
+                        为每一位学员的华丽蜕变喝彩
+                    </p>
+                </li>
+                <li class="r0 item2">
+                    <div class="top">
+                        <h3>面授</h3>
+                    </div>
+                    <p class="num">
+                        全程面授，线上线下结合<br/>
+                        严格管理，学得会，出作品<br/>
+                        避免纯视频教学带来的学风懒散<br/>
+                        学不会，做不好
+                    </p>
+                </li>
+                <li class="item3">
+                    <div class="top">
+                        <h3>质保</h3>
+                    </div>
+                    <p class="num">
+                        课程质保<br/>
+                        所有ui课程，学不会可免费重修<br/>
+                        名师1对1辅导
+                    </p>
+                </li>
+                <li class="item4 r0">
+                    <div class="top">
+                        <h3>多项</h3>
+                    </div>
+                    <p class="num">
+                        课程种类多<br/>
+                        满足你的个性化需求
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="set-course" id="set-course">
+        <section class="mid1080">
+            <div class="set-course-contain">
+                <div class="header">
+                    <h2>课程设置</h2>
+                    <div class="bot clearfix">
+                        <p class="class-salary">
+                            <span class="class">零基础课</span>
+                            <span class="salary">市场薪资</span>
+                            <em>3000-4000</em></p>
+                        <a target="_blank" href="javascript:void(0)"
+                           onclick="return openChat(this) " lim_company="796416" class="link-bg">申请试学</a>
+                    </div>
+                </div>
+                <div class="pos-abs-swiper">
+                    <div class="swiper-container ui-banners ui-banner2" id="ui-banner2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide ui-banner-slide1">
+                                <a target="_blank" href="javascript:void(0)"
+                                   onclick="return openChat(this) " lim_company="796416">
+                                    <img class="pos-abs-img" src="./statics/images/own/ui1/1.jpg?t=001" alt=""/>
+                                </a>
+                            </div>
+                            <div class="swiper-slide ui-banner-slide2">
+                                <a target="_blank" href="javascript:void(0)"
+                                   onclick="return openChat(this) " lim_company="796416">
+                                    <img class="pos-abs-img" src="./statics/images/own/ui1/2.jpg?t=001" alt=""/>
+                                </a>
+                            </div>
+                            <div class="swiper-slide ui-banner-slide3">
+                                <a target="_blank" href="javascript:void(0)"
+                                   onclick="return openChat(this) " lim_company="796416">
+                                    <img class="pos-abs-img" src="./statics/images/own/ui1/3.jpg?t=001" alt=""/>
+                                </a>
+                            </div>
+                            <div class="swiper-slide ui-banner-slide3">
+                                <a target="_blank" href="javascript:void(0)"
+                                   onclick="return openChat(this) " lim_company="796416">
+                                    <img class="pos-abs-img" src="./statics/images/own/ui1/4.jpg?t=001" alt=""/>
+                                </a>
+                            </div>
+                            <div class="swiper-slide ui-banner-slide3">
+                                <a target="_blank" href="javascript:void(0)"
+                                   onclick="return openChat(this) " lim_company="796416">
+                                    <img class="pos-abs-img" src="./statics/images/own/ui1/5.jpg?t=001" alt=""/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev ui-banner2-left"></div>
+                    <div class="swiper-button-next ui-banner2-right"></div>
+                </div>
+                <div class="set-course-list-wrapper clearfix">
+                    <ul class="set-course-list">
+                        <li class="clearfix">
+                            <i class="icon"></i>
+                            <span>美术基础：素描、色彩、速写、艺术鉴赏，培养基础的艺术鉴赏能力和艺术修养。</span>
+                        </li>
+                        <li class="clearfix">
+                            <i class="icon"></i>
+                            <span>设计基础：平面的构成、色彩的构成、设计的基本原理和应用原理。</span>
+                        </li>
+                        <li class="clearfix">
+                            <i class="icon"></i>
+                            <span>手绘基础：手绘的表现手法、基本的透视规律。</span>
+                        </li>
+                    </ul>
+                    <ul class="set-course-list set-course-list2">
+                        <li class="clearfix">
+                            <i class="icon"></i>
+                            <span class="nowrap">PS软件基础：软件工具运用、初级素材设计、PS抠图技巧、3D三维空间。</span>
+                        </li>
+                        <li class="clearfix">
+                            <i class="icon"></i>
+                            <span>CDR软件基础：软件工具运用、超酷立体特效、用CDR做海报设计。</span>
+                        </li>
+                        <li class="clearfix">
+                            <i class="icon"></i>
+                            <span>AI软件基础：软件工具运用、3D立体空间、艺术效果设计、包装设计。</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="set-course-contain set-courese-cont2">
+                <div class="header">
+                    <div class="bot clearfix">
+                        <p class="class-salary">
+                            <span class="class">助理UI设计师课程 </span>
+                            <span class="salary">市场薪资</span>
+                            <em>5000-6000</em></p>
+                        <a target="_blank" href="javascript:void(0)"
+                           onclick="return openChat(this) " lim_company="796416" class="link-bg">申请试学</a>
+                    </div>
+                </div>
+                <div class="pos-abs-swiper">
+                    <div class="swiper-container ui-banners ui-banner2" id="ui-banner3">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide ui-banner-slide1">
+                                <a target="_blank" href="javascript:void(0)"
+                                   onclick="return openChat(this) " lim_company="796416">
+                                    <img class="pos-abs-img" src="./statics/images/own/ui2/1.jpg?t=001" alt=""/>
+                                </a>
+                            </div>
+                            <div class="swiper-slide ui-banner-slide2">
+                                <a target="_blank" href="javascript:void(0)"
+                                   onclick="return openChat(this) " lim_company="796416">
+                                    <img class="pos-abs-img" src="./statics/images/own/ui2/2.jpg?t=001" alt=""/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev ui-banner3-left"></div>
+                    <div class="swiper-button-next ui-banner3-right"></div>
+                </div>
+                <div class="set-course-list-wrapper clearfix">
+                    <ul class="set-course-list">
+                        <li class="clearfix">
+                            <i class="icon"></i>
+                            <span>色彩设计：色彩原理、色彩心理学、行业配色属性。</span>
+                        </li>
+                        <li class="clearfix">
+                            <i class="icon"></i>
+                            <span>版面设计：排版构图法则、视觉关系、分割法则运用。</span>
+                        </li>
+                        <li class="clearfix">
+                            <i class="icon"></i>
+                            <span>PS：图标临摹、IOS app设计、Android APP设计，PC软件设计。</span>
+                        </li>
+                    </ul>
+                    <ul class="set-course-list set-course-list2">
+                        <li class="clearfix">
+                            <i class="icon"></i>
+                            <span>AI:线稿图标设计。</span>
+                        </li>
+                        <li class="clearfix">
+                            <i class="icon"></i>
+                            <span>切图适配：PSD切图、AI切图、Android.9切图适配、IOS切图适配。</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="set-course-contain set-courese-cont2">
+                <div class="header">
+                    <div class="bot clearfix">
+                        <p class="class-salary">
+                            <span class="class">UI/UX设计师课程  </span>
+                            <span class="salary">市场薪资</span>
+                            <em>8000-15000</em></p>
+                        <a target="_blank" href="javascript:void(0)"
+                           onclick="return openChat(this) " lim_company="796416" class="link-bg">申请试学</a>
+                    </div>
+                </div>
+                <div class="pos-abs-swiper">
+                    <div class="swiper-container ui-banners ui-banner2" id="ui-banner4">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide ui-banner-slide1">
+                                <a target="_blank" href="javascript:void(0)"
+                                   onclick="return openChat(this) " lim_company="796416">
+                                    <img class="pos-abs-img" src="./statics/images/own/ui3/1.jpg?t=001" alt=""/>
+                                </a>
+                            </div>
+                            <div class="swiper-slide ui-banner-slide2">
+                                <a target="_blank" href="javascript:void(0)"
+                                   onclick="return openChat(this) " lim_company="796416">
+                                    <img class="pos-abs-img" src="./statics/images/own/ui3/2.jpg?t=001" alt=""/>
+                                </a>
+                            </div>
+                            <div class="swiper-slide ui-banner-slide2">
+                                <a target="_blank" href="javascript:void(0)"
+                                   onclick="return openChat(this) " lim_company="796416">
+                                    <img class="pos-abs-img" src="./statics/images/own/ui3/3.jpg?t=001" alt=""/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev ui-banner4-left"></div>
+                    <div class="swiper-button-next ui-banner4-right"></div>
+                </div>
+                <div class="set-course-list-wrapper clearfix">
+                    <ul class="set-course-list">
+                        <li class="clearfix">
+                            <i class="icon"></i>
+                            <span>Xmind：脑图应用初级、APP脑图结构还原、原创APP脑图设计。</span>
+                        </li>
+                        <li class="clearfix">
+                            <i class="icon"></i>
+                            <span>Axure RP：软件设计流程分解、手绘原型方法、音乐播放器原型设计。</span>
+                        </li>
+                        <li class="clearfix">
+                            <i class="icon"></i>
+                            <span>原创APP设计：色彩设计综合、手绘图标综合、界面设计综合、设计规范综合、设计管理、项目包装综合、项目发布。</span>
+                        </li>
+                        <li class="clearfix">
+                            <i class="icon"></i>
+                            <span>安卓手机主题:设计：主题鉴赏与典型风格图标临摹、VIVO 华为 小米主题设计。</span>
+                        </li>
+                    </ul>
+                    <ul class="set-course-list set-course-list2">
+                        <li class="clearfix">
+                            <i class="icon"></i>
+                            <span>AE:软件基础、文字动效、图标动效、界面动效、作品赏析与实战。</span>
+                        </li>
+                        <li class="clearfix">
+                            <i class="icon"></i>
+                            <span>网页前端开发：最新版html5的常见标签与属性，掌握css3层叠样式表单的语法、选择器及常见属性。</span>
+                        </li>
+                        <li class="clearfix">
+                            <i class="icon"></i>
+                            <span>切图适配：效果图标注、PSD切图、AI切图、Android.9切图适配、IOS切图适配。</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="set-course-contain set-courese-cont4">
+                <div class="header">
+                    <div class="bot clearfix">
+                        <p class="class-salary">
+                            <span class="class">UI设计总监课程</span>
+                            <span class="salary">市场薪资</span>
+                            <em>25000以上</em></p>
+                        <a target="_blank" href="javascript:void(0)"
+                           onclick="return openChat(this) " lim_company="796416" class="link-bg">申请试学</a>
+                    </div>
+                </div>
+                <div class="pos-abs-swiper">
+                    <div class="swiper-container ui-banners ui-banner2" id="ui-banner5">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide ui-banner-slide1">
+                                <a target="_blank" href="javascript:void(0)"
+                                   onclick="return openChat(this) " lim_company="796416">
+                                    <img class="pos-abs-img" src="./statics/images/own/ui4/1.jpg?t=001" alt=""/>
+                                </a>
+                            </div>
+                            <div class="swiper-slide ui-banner-slide2">
+                                <a target="_blank" href="javascript:void(0)"
+                                   onclick="return openChat(this) " lim_company="796416">
+                                    <img class="pos-abs-img" src="./statics/images/own/ui4/2.jpg?t=001" alt=""/>
+                                </a>
+                            </div>
+                            <div class="swiper-slide ui-banner-slide2">
+                                <a target="_blank" href="javascript:void(0)"
+                                   onclick="return openChat(this) " lim_company="796416">
+                                    <img class="pos-abs-img" src="./statics/images/own/ui4/4.jpg?t=001" alt=""/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev ui-banner5-left"></div>
+                    <div class="swiper-button-next ui-banner5-right"></div>
+                </div>
+                <div class="set-course-list-wrapper clearfix">
+                    <ul class="set-course-list">
+                        <li class="clearfix">
+                            <i class="icon"></i>
+                            <span>设计专业心理学：基础心理学、消费心理学、设计心理学、传播心理学。</span>
+                        </li>
+                        <li class="clearfix">
+                            <i class="icon"></i>
+                            <span>设计沟通技巧：设计项目甲方心理剖析、如何让甲方认可你的方案、如何建立与甲方的信任关系。</span>
+                        </li>
+                        <li class="clearfix">
+                            <i class="icon"></i>
+                            <span>团队管理：如何招聘设计新人、如何对团队进行绩效管理、如何协调团队不同成员的配合程度。</span>
+                        </li>
+                    </ul>
+                    <ul class="set-course-list set-course-list2">
+                        <li class="clearfix">
+                            <i class="icon"></i>
+                            <span>用户体验：用户体验论、 问卷调查、人机交互心理学、用户体验检验标准、眼动测试。
+</span>
+                        </li>
+                        <li class="clearfix">
+                            <i class="icon"></i>
+                            <span>团队项目实战：软件项目开发流程、华为APP设计、腾讯游戏设计、融资路演技巧。</span>
+                        </li>
+                        <li class="clearfix">
+                            <i class="icon"></i>
+                            <span>游学研修：专家讲座、展览、文化创业园、设计公司。</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section class="set-class">
+        <div class="mid1080">
+            <div class="header">
+                <h2>班型设置</h2>
+                <p class="sub-tit">也许你想要的不仅仅是一项技能，我们能给你的还有更多。</p>
+            </div>
+            <div class="set-class-container">
+                <ul class="clearfix">
+                    <li class="item1">
+                        <div class="top">
+                            <div class="line"></div>
+                            <h3>零基础班</h3>
+                            <p class="sub-titi">UI初级课程</p>
+                            <a target="_blank" href="javascript:void(0)"
+                               onclick="return openChat(this) " lim_company="796416" class="link">咨询</a>
+                        </div>
+                        <h4>初级UI设计师</h4>
+                    </li>
+                    <li class="item2">
+                        <div class="top">
+                            <div class="line"></div>
+                            <h3>全能就业班</h3>
+                            <p class="sub-titi">UI课程+本科学历</p>
+                            <a target="_blank" href="javascript:void(0)"
+                               onclick="return openChat(this) " lim_company="796416" class="link">咨询</a>
+                        </div>
+                        <h4>技能+学历=轻松就业</h4>
+                    </li>
+                    <li class="item3">
+                        <div class="top">
+                            <div class="line"></div>
+                            <h3>高级人才班</h3>
+                            <p class="sub-titi">UI进阶课程</p>
+                            <a target="_blank" href="javascript:void(0)"
+                               onclick="return openChat(this) " lim_company="796416" class="link">咨询</a>
+                        </div>
+                        <h4>高级UI设计师</h4>
+                    </li>
+                    <li class="item4">
+                        <div class="top">
+                            <div class="line"></div>
+                            <h3>高管进修班</h3>
+                            <p class="sub-titi">UI进阶课程+管理课程</p>
+                            <a target="_blank" href="javascript:void(0)"
+                               onclick="return openChat(this) " lim_company="796416" class="link">咨询</a>
+                        </div>
+                        <h4>懂技术的管理者</h4>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="price" id="price">
+        <div class="mid1080 price-in">
+            <div class="pos-abs-img">
+                <img src="./statics/images/own/18.png?t=001" alt=""/>
+            </div>
+            <div class="rt">
+                <p class="desc">辛苦打工，却凑<em>不够学费？</em></p>
+                <p class="desc">你的努力，中鹏知道；你的困难，中鹏解决。</p>
+                <p class="desc">我们愿意帮助每一位这个城市的奋斗者</p>
+                <p class="desc"><span>0元入学，就业后付款，学费低至每天50元</span></p>
+                <a target="_blank" href="javascript:void(0)"
+                   onclick="return openChat(this) " lim_company="796416" class="link-bg">了解课程费用报价
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="problems">
+        <div class="mid1080 problemsIn">
+            <h2>常见<em>问题</em></h2>
+            <ul class="problems-list clearfix">
+                <li class="item1">
+                    <a target="_blank" href="javascript:void(0)" onclick="return openChat(this) " lim_company="796416">零基础<br/>可以学吗</a>
+                </li>
+                <li class="item2">
+                    <a target="_blank" href="javascript:void(0)"
+                       onclick="return openChat(this) " lim_company="796416">学费<br/>多少钱</a>
+                </li>
+                <li class="r0 item3">
+                    <a target="_blank" href="javascript:void(0)"
+                       onclick="return openChat(this) " lim_company="796416">是老师面授<br/>还是视频教学</a>
+                </li>
+                <li class="item4">
+                    <a target="_blank" href="javascript:void(0)"
+                       onclick="return openChat(this) " lim_company="796416">学完<br/>要多久</a>
+                </li>
+                <li class="item5">
+                    <a target="_blank" href="javascript:void(0)"
+                       onclick="return openChat(this) " lim_company="796416">女生<br/>适不适合学</a>
+                </li>
+                <li class="r0 item6">
+                    <a target="_blank" href="javascript:void(0)"
+                       onclick="return openChat(this) " lim_company="796416">学完能拿<br/>多少钱</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="test">
+        <div class="mid1080">
+            <img class="tit-img" src="./statics/images/own/19.jpg?t=001" alt=""/>
+            <form class="evaluate-frm1" name="myform1" id="myform1">
+                <div class="evalu-item">
+                    <h3>1、你喜欢用电脑来做什么？</h3>
+                    <div class="clearfix">
+                        <div class="evalu-item-list length1">
+                            <div class="radio-box">
+                                <input type="radio" name="info[like]" value="看影视" id="edu-primary"><span></span>
+                            </div>
+                            <label for="edu-primary">看影视</label>
+                        </div>
+                        <div class="evalu-item-list length2">
+                            <div class="radio-box">
+                                <input type="radio" name="info[like]" value="玩游戏" id="edu-middle"
+                                       checked="checked"><span></span>
+                            </div>
+                            <label for="edu-middle">玩游戏</label>
+                        </div>
+                        <div class="evalu-item-list length1">
+                            <div class="radio-box">
+                                <input type="radio" name="info[like]" value="看新闻资讯" id="edu-high"><span></span>
+                            </div>
+                            <label for="edu-high">看新闻资讯</label>
+                        </div>
+                        <div class="evalu-item-list length2">
+                            <div class="radio-box">
+                                <input type="radio" name="info[like]" value="我不喜欢玩电脑" id="edu-secondary"><span></span>
+                            </div>
+                            <label for="edu-secondary">我不喜欢玩电脑</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="evalu-item">
+                    <h3>2、在一般聚会或活动当中</h3>
+                    <div class="clearfix">
+                        <div class="evalu-item-list length1">
+                            <div class="radio-box">
+                                <input type="radio" name="info[prefer]" value="我能侃侃而谈" id="time-1"><span></span>
+                            </div>
+                            <label for="time-1">我能侃侃而谈</label>
+                        </div>
+                        <div class="evalu-item-list length2">
+                            <div class="radio-box">
+                                <input type="radio" name="info[prefer]" value="我保持沉默" checked="checked"
+                                       id="time-2"><span></span>
+                            </div>
+                            <label for="time-2">我保持沉默</label>
+                        </div>
+                        <div class="evalu-item-list length1">
+                            <div class="radio-box">
+                                <input type="radio" name="info[prefer]" value="介于A、B之间" id="time-3"><span></span>
+                            </div>
+                            <label for="time-3">介于A、B之间</label>
+                        </div>
+                        <div class="evalu-item-list length2">
+                            <div class="radio-box">
+                                <input type="radio" name="info[prefer]" value="我不喜欢参加活动" id="time-4"><span></span>
+                            </div>
+                            <label for="time-4">我不喜欢参加活动</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="evalu-item">
+                    <h3>3.下面几个方面你更喜欢做哪一个</h3>
+                    <div class="clearfix">
+                        <div class="evalu-item-list length1">
+                            <div class="radio-box">
+                                <input type="radio" name="info[preferToDo]" value="开发大型游戏" id="age-23"><span></span>
+                            </div>
+                            <label for="age-23">开发大型游戏</label>
+                        </div>
+                        <div class="evalu-item-list length2">
+                            <div class="radio-box">
+                                <input type="radio" name="info[preferToDo]" value="做漂亮的网站" checked="checked"
+                                       id="age-30"><span></span>
+                            </div>
+                            <label for="age-30">做漂亮的网站</label>
+                        </div>
+                        <div class="evalu-item-list length1">
+                            <div class="radio-box">
+                                <input type="radio" name="info[preferToDo]" value="UI设计游戏界面" id="age-35"><span></span>
+                            </div>
+                            <label for="age-35">UI设计游戏界面</label>
+                        </div>
+                        <div class="evalu-item-list length3">
+                            <div class="radio-box">
+                                <input type="radio" name="info[preferToDo]" value="策划推动网络事件" id="age-40"><span></span>
+                            </div>
+                            <label for="age-40">策划推动网络事件</label>
+                        </div>
+                        <div class="evalu-item-list length4">
+                            <div class="radio-box">
+                                <input type="radio" name="info[preferToDo]" value="我都不喜欢" id="age-other"><span></span>
+                            </div>
+                            <label for="age-other">我都不喜欢</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="evalu-item">
+                    <h3>4.你喜欢的兴趣体验课</h3>
+                    <div class="clearfix">
+                        <div class="evalu-item-list length1">
+                            <div class="radio-box">
+                                <input type="radio" name="info[experien]" value="一对一职业规划专家咨询"
+                                       id="reason-job"><span></span>
+                            </div>
+                            <label for="reason-job">一对一职业规划专家咨询</label>
+                        </div>
+                        <div class="evalu-item-list length2">
+                            <div class="radio-box">
+                                <input type="radio" name="info[experien]" value="1小时学会开发游戏页面王者荣耀" id="reason-servant"
+                                       checked="checked"><span></span>
+                            </div>
+                            <label for="reason-servant">1小时学会开发游戏页面王者荣耀</label>
+                        </div>
+                        <div class="evalu-item-list length1">
+                            <div class="radio-box">
+                                <input type="radio" name="info[experien]" value="1小时学会开发游戏猫来了"
+                                       id="reason-permit"><span></span>
+                            </div>
+                            <label for="reason-permit">1小时学会开发游戏猫来了</label>
+                        </div>
+                        <div class="evalu-item-list length2">
+                            <div class="radio-box">
+                                <input type="radio" name="info[experien]" value="手把手教学网页设计"
+                                       id="reason-certificate"><span></span>
+                            </div>
+                            <label for="reason-certificate">手把手教学网页设计</label>
+                        </div>
+                        <div class="evalu-item-list length1">
+                            <div class="radio-box">
+                                <input type="radio" name="info[experien]" value="开发智能聊天机器人" id="reason-other"><span></span>
+                            </div>
+                            <label for="reason-other">开发智能聊天机器人</label>
+                        </div>
+                        <div class="evalu-item-list length2">
+                            <div class="radio-box">
+                                <input type="radio" name="info[experien]" value="开发属于你的音乐播放器" id="reason-others"><span></span>
+                            </div>
+                            <label for="reason-others">开发属于你的音乐播放器</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="test-foot clearfix">
+                    <div class="left">
+                        <div class="writeinfo wri-one">
+                            <p for="" class="wlf-label">姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名</p>
+                            <input type="text" name="info[name]" placeholder="请输入您的姓名" value="">
+                        </div>
+                        <div class="writeinfo">
+                            <p for="" class="wlf-label">手&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;机</p>
+                            <input type="text" name="info[mobile]" placeholder="请输入您的手机" value="">
+                        </div>
+                        <div class="writeinfo">
+                            <p for="" class="wlf-label">QQ/微信:</p>
+                            <input type="text" name="info[weixin]" value="">
+                        </div>
+                    </div>
+                    <div class="btn-group">
+                        <a href="javascript:" onclick="ajaxPutData('myform1',259,true)" class="evalu-sub-btn bgc">提交测试</a>
+                        <input href="javascript:" class="evalu-reset-btn bgc" type="reset" value="重新填写">
+                    </div>
+                </div>
+                <input type="hidden" name="info[url]" value="" class="url">
+                <input type="hidden" name="json" value="1">
+                <input type="hidden" name="dosubmit" value=" 提交 ">
+            </form>
+        </div>
+    </section>
+    <section class="load" id="load">
+        <section class="mid1080">
+            <h2><em>免费</em>资料下载</h2>
+            <div class="load-list-wrapper clearfix">
+                <ul class="load-list">
+                    <li>
+                        <i class="icon"></i>
+                        <a href="javascript:void(0)">UI尺寸规范、UI图标尺寸、UI界面尺寸。</a>
+                    </li>
+                    <li>
+                        <i class="icon"></i>
+                        <a href="javascript:void(0)">从美工到设计师！凭什么说我是设计师？</a>
+                    </li>
+                    <li>
+                        <i class="icon"></i>
+                        <a href="javascript:void(0)">你真的知道什么是UI吗？</a>
+                    </li>
+                </ul>
+                <ul class="load-list load-list2">
+                    <li>
+                        <i class="icon"></i>
+                        <a href="javascript:void(0)">设计会文案谁也挡不住－优秀文案18招。</a>
+                    </li>
+                    <li>
+                        <i class="icon"></i>
+                        <a href="javascript:void(0)">设计师如何自我提升？</a>
+                    </li>
+                    <li>
+                        <i class="icon"></i>
+                        <a href="javascript:void(0)">写给刚入行的设计师之如何找灵感？</a>
+                    </li>
+                </ul>
+            </div>
+            <a class="bgc load-btn" href="javascript:void(0)">
+                <i class="icon"></i><span>立即打包下载免费资料</span>
+            </a>
+        </section>
+    </section>
+    <section class="environment" id="environment">
+        <div class="mid1080">
+            <div class="environment-contain">
+                <div class="header">
+                    <h2>为了让你学业有成，我们愿意为你提供<span>更好的环境</span></h2>
+                </div>
+                <div class="environment-contain-swiper">
+                    <div class="swiper-container ui-banner6" id="ui-banner6">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide ui-banner-slide1">
+                                <a target="_blank" href="javascript:void(0)"
+                                   onclick="return openChat(this) " lim_company="796416">
+                                    <img src="./statics/images/own/ui5/1.jpg?t=001" alt=""/>
+                                </a>
+                            </div>
+                            <div class="swiper-slide ui-banner-slide2">
+                                <a target="_blank" href="javascript:void(0)"
+                                   onclick="return openChat(this) " lim_company="796416">
+                                    <img src="./statics/images/own/ui5/2.jpg?t=001" alt=""/>
+                                </a>
+                            </div>
+                            <div class="swiper-slide ui-banner-slide3">
+                                <a target="_blank" href="javascript:void(0)"
+                                   onclick="return openChat(this) " lim_company="796416">
+                                    <img src="./statics/images/own/ui5/3.jpg?t=001" alt=""/>
+                                </a>
+                            </div>
+                            <div class="swiper-slide ui-banner-slide3">
+                                <a target="_blank" href="javascript:void(0)"
+                                   onclick="return openChat(this) " lim_company="796416">
+                                    <img src="./statics/images/own/ui5/4.jpg?t=001" alt=""/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev ui-banner6-left"></div>
+                    <div class="swiper-button-next ui-banner6-right"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+
+<footer class="bgf2f2f2 footer">
+    <div class="footer_tops">
+    <div class="mid1080 footer_top" style="position: relative;">
+        <div class="address footer_map">
+            <h1>A D D R E S S<span>校区地址</span></h1>
+            <ul>
+                <li>总部地址：深圳龙岗区吉祥地铁站B出口湖广通大厦4楼</li>
+                <li>龙岗校区：深圳龙岗区吉祥地铁站B出口湖广通大厦4楼</li>
+                <li>南山实训基地：深圳市南山区南山大道亿利达大厦B区2楼</li>
+                <li>宝安校区：深圳市宝安区新安二路37号五区综合楼2楼</li>
+                <li>福田校区：深圳市福田区上步中路深勘大厦19楼</li>
+                <li>广州校区：广州市天河区元岗路616号天河慧通产业广场A8-1栋</li>
+                <li>东莞校区：东莞松山湖总部二路光大we谷产业园 A2栋806室</li>
+                <li>服装中心：福田区深南中路兴华大厦A座11B</li>
+                <li>沙井校区：深圳市宝安区新桥街道中心路与新沙路交叉口华润万家4楼4005</li>
+            </ul>
+        </div>
+        <div class="address footer_about">
+            <h1>C O N T A C T<span>总部联系方式</span></h1>
+            <ul>
+                <li>热线电话：0755-83368186</li>
+                <li>免费热线：400-930-6618</li>
+                <li>官方网站：<a href="http://www.gdzp.org" title="">www.gdzp.org</a></li>
+                <li>手机网站：<a href="http://m.gdzp.org" title="">m.gdzp.org</a></li>
+                <li>咨询QQ：400-602-6618</li>
+                <li>官方微信：中鹏教育集团</li>
+                <li>深圳市中鹏教育科技股份有限公司</li>
+                <li><a href="http://www.miitbeian.gov.cn/" target="_blank">粤ICP备09069122号</a></li>
+            </ul>
+        </div>
+        <div class="address footer_Activity">
+            <h1>A C T I V I T I E S<span>官方活动</span></h1>
+            <ol>
+                <li class="footer_act1"><a href="http://www.gdzp.org/list-1375-1">竞赛专区</a></li>
+                <li class="footer_act2"><a href="http://www.gdzp.org/list-15-1">活动专区</a></li>
+                <li class="footer_act3"><a href="http://szb.gdzp.org/list/1419-1.html">课程专区</a></li>
+                <li class="footer_act4"><a href="http://www.gdzp.org/list-222-1">优惠专区</a></li>
+                <li class="footer_act5"><a href="http://www.gdzp.org/list-16-1">其他活动</a></li>
+            </ol>
+            <div>
+                <script id="ebsgovicon"
+                        src="http://szcert.ebs.org.cn/govicon.js?id=bc8ef7f1-c096-4e40-9dc4-f052ef9c49ae&width=112&height=40&type=2"
+                        type="text/javascript" charset="utf-8"></script>
+            </div>
+        </div>
+        <div class="footer_weixin">
+            <img src="http://www.gdzp.org/statics/images/kc/index_09.png"/>
+            <div class="bdsharebuttonbox">
+                <div class="sharelist">
+                    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                    <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+                    <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+                    <a href="#" class="bds_more" data-cmd="more"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="clearfix"></div>
+<div id="loginalert">
+    <div class="pd20 loginpd">
+        <h3><i class="closealert fr"></i>
+            <div class="clear"></div>
+        </h3>
+        <div class="loginwrap">
+            <div class="loginh">
+                <div class="fl">会员登录</div>
+                <div class="fr">还没有账号<a id="sigup_now" href="javascript:void(0);">立即注册</a></div>
+            </div>
+            <h3><span class="fl">邮箱登录</span><span class="login_warning">用户名或密码错误</span>
+                <div class="clear"></div>
+            </h3>
+            <form action="" method="post" id="login_form">
+                <div class="logininput">
+                    <input type="text" name="username" class="loginusername" value="" placeholder="邮箱/用户名"/>
+                    <input type="text" class="loginuserpasswordt" value="" placeholder="密码"/>
+                    <input type="password" name="password" class="loginuserpasswordp" style="display:none"/>
+                </div>
+                <div class="loginbtn">
+                    <div class="loginsubmit fl"><input type="submit" value="登录" class="btn"/></div>
+                    <div class="fl" style="margin:26px 0 0 0;"><input id="bcdl" type="checkbox" checked="true"/>保持登录
+                    </div>
+                    <div class="fr" style="margin:26px 0 0 0;"><a href="#">忘记密码?</a></div>
+                    <div class="clear"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="thirdlogin">
+        <div class="pd50">
+            <h4>用第三方帐号直接登录</h4>
+            <ul>
+                <li id="sinal"><a href="">微博账号登录</a></li>
+                <li id="qql"><a href="">QQ账号登录</a></li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div><!--loginalert end-->
+<div class="loginmask"></div>
+<div id="reg_setp">
+    <div class="back_setp">返回</div>
+    <div class="blogo"></div>
+    <div id="setp_quicklogin">
+        <h3>您可以选择以下第三方帐号直接登录中鹏培训官网，一分钟完成注册</h3>
+        <ul class="quicklogin_socical">
+            <li class="quicklogin_socical_weibo"><a href="">微博帐号注册</a></li>
+            <li class="quicklogin_socical_qq" style="margin:0;"><a href="">QQ帐号注册</a></li>
+        </ul>
+    </div>
+</div>
+<script src="./statics/js/jquery-1.11.3.min.js"></script>
+<script src="./statics/js/swiper.min.js?t=1"></script>
+<script src="./statics/js/login.js"></script>
+<script>
+(function() {
+    $(".url").val((window.top.location.href || window.location.href));
+})();
+</script>
+
+<script type="text/javascript" src="./statics/js/form.js?t=0002"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    //首先将#back-to-top隐藏
+    $("#backTop").hide();
+    //当滚动条的位置处于距顶部100像素以下时，跳转链接出现，否则消失
+    $(function() {
+        $(window).scroll(function() {
+            if($(window).scrollTop() > 100) {
+                $("#backTop").fadeIn(1500);
+            } else {
+                $("#backTop").fadeOut(1500);
+            }
+        });
+        //当点击跳转链接后，回到页面顶部位置
+        $("#backTop").click(function() {
+            $('body,html').animate({
+                    scrollTop: 0
+                },
+                1000);
+            return false;
+        });
+    });
+
+    //弹窗
+    (function() {
+        $('#layer').find('.modal .pos-close').on('click',function() {
+            $(this).parent().hide();
+            $('#layer').hide();
+        });
+    })();
+
+    //导航
+    (function() {
+        var index = 0;
+        $('#nav').find('ul li').on('click', function() {
+            index = $(this).index();
+            $(this).addClass('on').siblings().removeClass('on');
+        });
+        $('#nav').find('ul li').hover(function() {
+            $(this).addClass('on').siblings().removeClass('on');
+        }, function() {
+            $(this).removeClass('on');
+            $('#nav').find('ul li').eq(index).addClass('on');
+        })
+
+    })();
+
+    //轮播
+    (function() {
+        var mySwiper1 = new Swiper('#ui-banner1', {
+            direction: 'horizontal',
+            loop: true,
+            autoplay:3500,
+            pagination: '.ui-banner1-pagination',
+        });
+        var mySwiper2 = new Swiper('#ui-banner2', {
+            direction: 'horizontal',
+            loop: true,
+            autoplay:3500,
+            nextButton: '.ui-banner2-right',
+            prevButton: '.ui-banner2-left',
+        });
+        var mySwiper3 = new Swiper('#ui-banner3', {
+            direction: 'horizontal',
+            loop: true,
+            autoplay:3500,
+            nextButton: '.ui-banner3-right',
+            prevButton: '.ui-banner3-left',
+        });
+        var mySwiper4 = new Swiper('#ui-banner4', {
+            direction: 'horizontal',
+            loop: true,
+            autoplay:3500,
+            nextButton: '.ui-banner4-right',
+            prevButton: '.ui-banner4-left',
+        });
+        var mySwiper5 = new Swiper('#ui-banner5', {
+            direction: 'horizontal',
+            loop: true,
+            autoplay:3500,
+            nextButton: '.ui-banner5-right',
+            prevButton: '.ui-banner5-left',
+        });
+
+        var certifySwiper = new Swiper('#ui-banner6', {
+            watchSlidesProgress: true,
+            slidesPerView: 'auto',
+            centeredSlides: true,
+            loop: true,
+            loopedSlides: 3,
+            autoplay: 3000,
+            nextButton: '.ui-banner6-right',
+            prevButton: '.ui-banner6-left',
+            onProgress: function(swiper, progress) {
+                for (i = 0; i < swiper.slides.length; i++) {
+                    var slide = swiper.slides.eq(i);
+                    var slideProgress = swiper.slides[i].progress;
+                    modify = 1;
+                    if (Math.abs(slideProgress) > 1) {
+                        modify = (Math.abs(slideProgress) - 1) * 0.3 + 1;
+                    }
+                    translate = slideProgress * modify * 308 + 'px';
+                    scale = 1 - Math.abs(slideProgress) /3;
+                    zIndex = 999 - Math.abs(Math.round(10 * slideProgress));
+                    slide.transform('translateX(' + translate + ') scale(' + scale + ')');
+                    slide.css('zIndex', zIndex);
+                    slide.css('opacity', 1);
+                    if (Math.abs(slideProgress) > 3) {
+                        slide.css('opacity', 0);
+                    }
+                }
+            },
+            onSetTransition: function(swiper, transition) {
+                for (var i = 0; i < swiper.slides.length; i++) {
+                    var slide = swiper.slides.eq(i)
+                    slide.transition(transition);
+                }
+            },
+        });
+    })();
+
+    //下载
+    (function() {
+        var $list = $('#load').find('a'),
+            $layer = $('#layer'),
+            srcArr = ['http://www.gdzp.org/page_2017/ui/statics/uoloadfile/size-rules.pdf','http://www.gdzp.org/page_2017/ui/statics/uoloadfile/dependon.pdf','http://www.gdzp.org/page_2017/ui/statics/uoloadfile/whatui.pdf','http://www.gdzp.org/page_2017/ui/statics/uoloadfile/good.pdf','http://www.gdzp.org/page_2017/ui/statics/uoloadfile/promotion.pdf','http://www.gdzp.org/page_2017/ui/statics/uoloadfile/spirits.pdf','http://www.gdzp.org/page_2017/ui/statics/uoloadfile.zip'];
+        var flag = false;
+        $list.on('click',function() {
+            console.log(flag);
+                if(flag === undefined){
+                    $list.each(function(index) {
+                       $(this).attr('href',srcArr[index]);
+                    });
+                }else{
+                    $layer.show();
+                    $layer.find('.modal1').show().siblings().hide();
+                    $('#modal1-pos-link').on('click',function() {
+                        flag =  ajaxPutData('loadForm',259,true);
+                    });
+                }
+
+        });
+
+        $('#loadform').find('.modal-close-pos').on('click',function() {
+           $(this).parents('#layer').hide();
+           $(this).parents('.modal').hide();
+        });
+        
+    })();
+
+});
+
+//下载
+</script>
+        </body>
+        </html>
